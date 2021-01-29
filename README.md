@@ -8,6 +8,9 @@ Sequential, disk-backed commit log library for Rust. The library can be used in 
 
 [Documentation](https://docs.rs/commitlog/)
 
+## This fork
+
+I aim to move this project to using new kernel uring features, allow the commitlog to be access safely between threads, allow for easy async usage, and eventually move to unbuffered IO complimented by a purpose built pagecache.
 
 ## Usage
 
